@@ -1,0 +1,52 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+.head-logo{
+    width: 100%;
+    height: 100px;
+    background-color: teal;
+    border-bottom: 1px solid white;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: teal;
+}
+.navbar ul{
+    width: 1200px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.active{
+    background-color: rgb(1, 66, 66);
+}
+.navbar ul li a{
+    color: white;
+    font-size: 28px;
+    font-family: Khmer OS Battambang;
+    padding: 4px 30px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: teal;
+    background-color: white;
+}
+.herobanner{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://wallpapers.com/images/hd/red-abstract-lines-6hwu6t8epsgm0tjy.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.title{
+    width: 300px;
+    height: 200px;
+    border: 5px solid teal;
+    color: white;
+    font-family: Khmer OS Battambang;
+    text-align: center;
+    padding-top: 50px;
+}

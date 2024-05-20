@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container-pic{
+    width: 100%;
+    height: 650px;
+    background-image: url(../image/pic3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+    display: flex;
+}
+.box-text{
+    width: 1200px;
+    height: 400px;
+    /* background-color: rgb(47, 73, 73); */
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+span{
+    background-color: blue;
+}
+h1{
+    font-size: 70px;
+}
+.search{
+    width: 600px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(245, 245, 245);
+    margin: auto;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    padding-left: 20px;
+}
+.text-search{
+    color: rgb(94, 89, 89); 
+}
+.fa-solid{
+    color: black;
+    padding-left: 350px;
+}
+.background{
+    width: 100%;
+    height: 1400px;
+
+}
+.container-box{
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+}
+
+.text{
+    width: 1200px;
+    height: 200px;
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+}
+.box-menu{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card1, .card3{
+    width: 290px;
+    height: 350px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.card2, .card4{
+    width: 290px;
+    height: 350px;
+    margin-top:  50px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.text2{
+    width: 100%;
+    height: 200px;
+    color: black;
+    margin-top: 100px;
+    text-align: center;
+}
+.box-house{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card-house1, .card-house2, .card-house3, .card-house4{
+    width: 295px;
+    height: 400px;
+    border: 1px solid #645e5e;
+    border-radius: 27px;
+    overflow: hidden;
+}
+.tittle{
+    width: 240px;
+    height: 250px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -290px;
+    transition: 0.50s;
+}
+.card-house1:hover > .tittle, .card-house2:hover > .tittle, .card-house3:hover > .tittle, .card-house4:hover > .tittle{
+    margin-top: 0px;
+}
+.note{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

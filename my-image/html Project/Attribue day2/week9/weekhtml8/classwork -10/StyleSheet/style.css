@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 2000px;
+}
+.container-pic{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-menu{
+    width: 1200px;
+    height: 60px;
+    /* background-color: aqua; */
+    margin: auto;
+}
+.nav-logo{
+    width: 200px;
+    height: 60px;
+    /* background-color: aquamarine; */
+    float: left;
+    align-items: center;
+    display: flex;
+
+}
+.nav-menu{
+    width: 800px;
+    height: 60px;
+    /* background-color: antiquewhite; */
+    float: left;
+}
+.box-download{
+    width: 200px;
+    height: 60px;
+    /* background-color: aliceblue; */
+    float: left;
+}
+.box-download > p{
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    align-items: center;
+    display: block;
+
+}
+.download:hover{
+    background-color: white;
+    color: red;
+}
+.nav-menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 20px 20px;
+    display: block;
+    transition: 1s;
+    text-underline-offset: 0;
+
+}
+.nav-menu > ul{
+    /* width: 800px; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-menu > ul:hover > li:hover > a:hover{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+}
+.box-text{
+    width: 700px;
+    height: 480px;;
+    /* background-color: aliceblue; */
+    margin: auto;
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    font-size: 90px;
+    text-shadow: 50px;
+}
+.tittle{
+    text-align: center;
+    font-size: 25px;
+}
+.text{
+    font-size: 16px;
+}
+/* .container-download{
+    width: 470px;
+    height: 90px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: 0.50s;
+    margin-top: 100px;
+    
+} */
+.box-btn{
+    width: 400px;
+    height: 90px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.50s;
+    margin: auto;
+    margin-top: 800px;
+}
+.btn-download{
+    width: 380px;
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.50s;
+
+}
+.box-btn:hover{
+    width: 500px;
+    height: 90px;
+}
+.btn-download:hover{
+    width: 478px;
+    height: 70px;
+}
+.btn{
+    font-size: 30px;
+    color: black;
+    /* padding-top: 20px; */
+    text-shadow: 5px;
+}
+
+

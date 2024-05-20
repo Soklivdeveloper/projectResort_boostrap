@@ -1,0 +1,609 @@
+@font-face {
+    font-family: battambang-l;
+    src: url(Googlefont/Battambang/Battambang-Light.ttf);
+}
+@font-face {
+    font-family: battambang-r;
+    src: url(Googlefont/Battambang/Battambang-Regular.ttf);
+}
+@font-face {
+    font-family: hunuman-l;
+    src: url(Googlefont/Hanuman/Hanuman-Light.ttf);
+}
+@font-face {
+    font-family: hunuman-r;
+    src: url(Googlefont/Hanuman/Hanuman-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-l;
+    src: url(Googlefont/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: roboto-r;
+    src: url(Googlefont/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: c-r;
+    src: url(Googlefont/Crimson_Text/CrimsonText-Regular.ttf);
+}
+@font-face {
+    font-family: c-i;
+    src: url(Googlefont/Crimson_Text/CrimsonText-Italic.ttf);
+}
+@font-face {
+    font-family: b-l;
+    src: url(Googlefont/Barlow/Barlow-Light.ttf);
+}
+@font-face {
+    font-family: m-r;
+    src: url(Googlefont/Metal/Metal-Regular.ttf);
+}
+@font-face {
+    font-family: seimreab;
+    src: url(Googlefont/Siemreap/Siemreap-Regular.ttf);
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: khmer Os battambang;
+}
+.nav-item{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.my-drop{
+    width: 100%;
+    height: 100%;
+    background: rgba(219, 219, 219, 0.479);
+    padding: 30px 20px;
+}
+.dropdown-item{
+    margin-bottom: 5px;
+}
+.dropdown-item:hover{
+    color: rgb(255, 185, 185)!important;
+}
+@media (max-width: 1200px) {
+    .btn-top{
+        margin-top: 20px;
+    }
+    
+}
+ /* Underline From Center */
+ .hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #5a6063;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }
+  /* ----------Underline-from-center-------- */
+  .nav-link{
+    color: azure !important;
+}
+
+.action-nav{
+    color: palegreen !important;
+}
+.nav-link:hover{
+    color: palegreen !important;
+}
+/* Navbar-style */
+.box-nav{
+    width: 100%;
+    background-color: rgba(187, 175, 175, 0.904);
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    z-index: 5;
+    font-family: seimreab;
+}
+@media(max-width: 1300px){
+    .box-menu{
+        padding: 40px 0 40px 40px;
+    }
+}
+.my-slide{
+    width: 100%;
+    height: 640px;
+    margin: auto;
+    overflow: hidden;
+} 
+.navbar-brand {
+    width: 90px;
+    height: 90px;
+}
+.navbar-brand img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+/* Navbar-style */
+/* banner-style */
+.container-fluid .background-banner{
+    width: 100%;
+    height: 100%;
+}
+.my-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.my-slide .title-slide{
+    width: 800px;
+    height: 230px;
+    margin-top: 200px;
+}
+.title-slide h3:nth-child(1){
+    font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+.title-slide h3:nth-child(2){
+    font-weight: bolder;
+    transition: 1s;
+    animation: anima 10s ease-in-out infinite;
+}
+@keyframes anima{
+    0%,100%{
+        clip-path: polygon(1% 71%, 7% 62%, 16% 57%, 25% 54%, 32% 58%, 38% 66%, 48% 72%, 61% 69%, 64% 61%, 71% 55%, 81% 58%, 88% 64%, 98% 69%, 99% 100%, 1% 99%);
+        }
+    50%{
+        clip-path: polygon(100% 60%, 95% 55%, 86% 49%, 76% 50%, 69% 55%, 61% 59%, 48% 57%, 45% 48%, 37% 45%, 28% 50%, 23% 58%, 8% 61%, 5% 54%, 2% 47%, 1% 99%, 100% 99%);
+            }
+}
+.box-btn{
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    /* backdrop-filter: blur(7px); */
+    /* animation: view-btn 1s linear infinite; */
+}
+.box-btn a button{
+    width: 150px;
+    height: 50px;
+    font-family: seimreab;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.527);
+}
+.bg-check{
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+    position: relative;
+    z-index: 2;
+    padding: 20px 0;
+    border: 1px solid palegreen;
+    background-color: rgba(103, 114, 103, 0.507);
+}
+.container-fluid .booking{
+    width: 100%;
+    height: 100%;
+}
+.check-room > .option-title{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(217, 247, 247, 0.582);
+    border: 1px solid palegreen;
+    backdrop-filter: blur(10px);
+    padding-left: 10px;
+}
+.check-room > .option-title:focus{
+    outline-color: rgb(255, 247, 130);
+}
+.check-room >  input:focus{
+    outline-color: rgb(255, 247, 130);
+}
+.check-room > input{
+    width: 100%;
+    height: 50px;
+    background: rgba(217, 247, 247, 0.582) url(my-image/logo-resort/catoon1.png);
+    border: 1px solid palegreen;
+    backdrop-filter: blur(10px);
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 96%;
+}
+.check-room[type=date],
+::-webkit-calendar-picker-indicator{
+    opacity: 0;
+    padding-right: 10px;
+}
+
+.check-room .btn{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(217, 247, 247, 0.582);
+    border: 1px solid palegreen;
+    backdrop-filter: blur(10px);
+}
+.check-room:hover .check-in{
+    border: 2px solid rgb(255, 247, 130);
+    color: rgb(177, 170, 113);
+}
+.check-room > .option{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(217, 247, 247, 0.582);
+}
+/* border-anamation */
+.border-anamation{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: palegreen; */
+}
+.border-anamation::before{
+    content: '';
+    position: absolute;
+    background-image: conic-gradient(red 30deg, 
+    transparent 120deg);
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    animation: rotate 4s linear infinite;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(360deg);
+    }100%{
+        transform: rotate(0deg);
+    }
+    
+}
+.border-anamation::after{
+    content: 'ណែនាំអំពីផ្ទះ';
+    color: rgb(19, 145, 145);
+    text-shadow: 2px 2px 4px rgb(151, 121, 121);
+    position: absolute;
+    width: 95%;
+    height: 88%;
+    border-radius: 5px;
+    background-color: rgb(245, 203, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 20px 20px 20px rgb(224, 222, 222);
+}
+.border-anamation:hover{
+    color: hotpink;
+}
+/* banner-style */
+/* text-title-style */
+.container .text-title{
+    width: 100%;
+    height: 100%;
+}
+/* text-title-style */
+/* review-room */
+.container .box-room{
+    width: 100%;
+    height: 100%;
+    background-color: palegreen;
+}
+.pic-room:hover{
+    transform: scale(1.1, 1.1);
+}
+.pic-room:hover > .pic-room:not(:hover){
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+    
+}
+.container .my-hourse{
+    width: 100%;
+    height: 300px;
+    background-color: paleturquoise;
+    overflow: hidden;
+}
+.my-hourse img{
+    width: 100%;
+    height: 300px;
+    transition: 1s;
+}
+.border-top{
+    width: 80%;
+    height: 90%;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: 1s;
+}
+.border-left{
+    width: 90%;
+    height: 80%;
+    border-left: 2px solid palevioletred;
+    border-right: 2px solid palevioletred;
+    transition: 1s;
+}
+.my-hourse:hover .border-left{
+    height: 100%;
+}
+.my-hourse:hover .border-top{
+    width: 100%;
+}
+.my-hourse:hover img{
+    transform: scale(1.1);
+}
+.review-room{
+    width: 100%;
+    height: 300px;
+}
+.review-room .text-room{
+    width: 85%;
+    height: 85%;
+}
+.text-room .btn-room{
+    width: 320px;
+    height: 50px;
+} 
+.price-room{
+    height: 80%;
+    border-right: 1px solid rgb(0, 0, 0);
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.container .my-check{
+    width: 60%;
+    height: 100%;
+    padding: 70px 0;
+
+    /* background-color: palegreen; */
+}
+.my-check .check-form{
+    width: 100%;
+}
+.check-form > input{
+    width: 100%;
+    height: 50px;
+    background: url(../my-image/logo-resort/catoon1.png);
+    border: 1px solid palegreen;
+    backdrop-filter: blur(10px);
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 96%;
+}
+.check-room[type=date],
+::-webkit-calendar-picker-indicator{
+    opacity: 0;
+    padding-right: 10px;
+}
+.check-form > .option{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+}
+.container-fluid .detail{
+    width: 100%;
+    height: 100%;
+    /* background-color: palegoldenrod; */
+}
+.detail .room{
+    width: 100%;
+    height: 350px;
+    background-color: paleturquoise;
+    overflow: hidden;
+}
+.detail .story{
+    width: 100%;
+    height: 350px;
+    /* background-color: pink; */
+    padding: 40px 40px;
+}
+.btn{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.btn-detail{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+.left{
+    width: 2px;
+    height: 90%;
+    background: powderblue;
+    /* border-left: 1px solid palegoldenrod; */
+}
+.action-detail{
+    width: 100%;
+    height: 100px;
+    padding: 0 0 0 40px;
+}
+.room-feature{
+    width: 100%;
+    height: 100%;
+    /* background: palegreen; */
+    padding: 20px 0px 0 20px;
+}
+.pic-detail{
+    width: 100%;
+    height: 350px;
+    background: palegreen;
+}
+/* review-room */
+/* slide restuarant */
+/* card-dining-style */
+.container-fluid .restuarant-slide{
+    width: 100%;
+    height: 100%;
+    /* background: palegreen; */
+    margin-top: 20px;
+}
+.container-fluid .slide-dining{
+    width: 100%;
+    height: 100%;
+}
+.dining-img img{
+    height: 450px;
+    object-fit: cover;
+}
+.slide-dining .dining-img{
+    width: 100%;
+    height: 100%;
+}
+.slide-dining .subtitle-din{
+    width: 100%;
+    height: 450px;
+    background-color: palegoldenrod;
+}
+.subtitle-din .sub-title{
+    width: 100%;
+    height: 100%;
+    background-color: palegoldenrod;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 30px 0 0;
+    z-index: 2;
+}
+.header{
+    padding-right: 20px;
+}
+.btn-menu{
+    width: 250px;
+    height: 40px;
+    /* background-color: rgb(255, 234, 0); */
+}
+/* card-dining-style */
+.container-fluid .box-activity{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.box-activity .my-pic{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+} 
+.my-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.my-pic:hover img{
+    transform: scale(1.1);
+}
+.pic-title{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    bottom: -50px;
+    transition: 1s;
+    position: absolute;
+    z-index: 1;
+}
+.my-pic:hover .pic-title{
+    bottom: 0;
+}
+/* style activity*/
+/* action-service */
+.container .action-service{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.action-service img{
+    width: 50%;
+    height: 100px;
+}
+/* Footer-style */
+.container-fluid .my-footer{
+    width: 100%;
+    height: 100%;
+}
+.sub-footer{
+    width: 100%;
+    height: 300px;
+    /* background-color: paleturquoise; */
+}
+.information{
+    height: 350px;
+    padding: 40px 0 0 50px;
+    line-height: 30px;
+}
+.sub-footer img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.sub-footer .box-media{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-email{
+    width: 100%;
+    height: 40px;
+     margin-bottom: 20px;
+     margin-top: 10px;
+
+}
+.icon:hover{
+    transform: scale(1);
+    color: rgb(173, 247, 173);
+}
+.bg-color{
+    background-color: powderblue;
+}
+.font-1{
+    font-family: m-r;
+    text-shadow: 1px 2px 4px gray;
+}
+.font-2{
+    font-family: c-r;
+}
+.font-5{
+    font-family: hunuman-l;
+}
+.font-4{
+    font-family: m-r;
+}
+.font-6{
+    font-family: roboto-r;
+}

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-nav{
+    width: 100%;
+    height: 70px;
+    background-color: antiquewhite;
+}
+.box-nav{
+    width: 1200px;
+    height: 70px;
+    background-color: antiquewhite;
+    display: flex;
+    margin: auto;
+}
+.nav-menu{
+    width: 500px;
+    height: 70px;
+    background-color: rgb(227, 255, 127);
+    margin: auto;
+}
+.nav-contact{
+    width: 700px;
+    height: 70px;
+    background-color: rgb(42, 126, 165);
+    margin: auto;
+}
+.container-slide{
+    width: 1200px;
+    height: 400px;
+    background-color: aliceblue;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+
+}
+.slide1{
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+}
+.slide2{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(84, 100, 100);
+}
+.container-card{
+    width: 1200px;
+    height: 620px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+.card{
+    width: 390px;
+    height: 300px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+
+

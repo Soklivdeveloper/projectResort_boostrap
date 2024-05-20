@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.header{
+    width: 1200px;
+    height: 50px;
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
+}
+.nav-a{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    float: left;
+    border-radius: 50%;
+    margin-right: 50px;
+    padding-left:  14px;
+    padding-top: 5px;
+}
+.nav-menu{
+    width: 850px;
+    height: 50px;
+    background-color: white;
+    float: left;
+    border-radius: 30px;
+}
+.nav-login{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    float: right;
+    border-radius: 30px;
+}
+.nav-menu > ul > li >a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 17px 25px;
+    display: block;
+
+}
+.nav-menu > ul{
+    width: 850px;
+    height: 50px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+
+}
+.nav-menu > ul > li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nav-login > ul > li >a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.nav-login > ul{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+}
+.nav-login > ul > li{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.dropdown-solution{
+    width: 100px;
+    height: 100px;
+    background-color: #6d6a6a;
+    position: absolute;
+    /* display: none; */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: -150px;
+    transition: 0.50s;
+    z-index: -1;
+}
+.dropdown-solution > ul > li > a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+.dropdown-solution > ul{
+    list-style-type: none;
+}
+.solution:hover .dropdown-solution{
+    /* display: block; */
+    margin-top: 0;
+}
+.solution > a:hover{
+    background-color: rgb(255, 0, 128);
+    color: #ffffff;
+    box-shadow: 0 4px 0;
+}
+.dropdown-solution > ul:hover > li:hover > a:hover{
+    background-color: #e61376;
+    color: aqua;
+}

@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+}
+.header{
+    width: 1200px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 70px;
+}
+.text{
+    width: 1200px;
+    height: 100px;
+    background-color: white;
+}
+.lorem{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    text-align: center;
+}
+.container-product{
+    width: 1060px;
+    height: 390px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.pic-product1, .pic-product2, .pic-product3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(43, 48, 46);
+    float: left;
+    margin-right: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.pic-product4{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.container-box{
+    width: 1060px;
+    height: 100px;
+    background-color: white;
+    float: left;
+}
+.text-product1, .text-product2, .text-product3{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-right: 20px;
+
+}
+.text-product4{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    float: left;
+}
+span{
+    color: black;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: rgb(165, 165, 154);
+    font-size: 14px;
+}
+.container-btn{
+    width: 1060px;
+    height: 30px;
+    background-color: white;
+    float: left;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.box-btn{
+    width: 250px;
+    height: 40px;
+    background-color: red;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 8px 6px rgb(165, 46, 46));
+}
+.box-btn4{
+    width: 250px;
+    height: 40px;
+    background-color: red;
+    float: left;
+    border-radius: 20px;
+    filter: drop-shadow(10px 8px 6px rgb(165, 46, 46));
+}
+.price{
+    color: rgb(150, 137, 137);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

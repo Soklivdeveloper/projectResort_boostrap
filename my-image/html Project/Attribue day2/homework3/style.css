@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    /* float: left; */
+    text-align: center;
+    background-color: rgb(168, 168, 159);
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+}
+.box img{
+    width: 1200px;
+    height: 200px;
+    float: left;
+    background-color: aqua;
+    object-fit: cover;
+}
+.box-text{
+    width: 1200px;
+    height: 140px;
+    float: left;
+    background-color: whitesmoke;
+}
+.box-card{
+    width: 1200px;
+    height: 300px;
+    float: left;
+    background-color: whitesmoke;
+}
+
+.card1 img, .card2 img, .card3 img{
+    width: 255px;
+    height: 300px;
+    float: left;
+    margin-right: 60px;
+    background-color: aliceblue;
+}
+.card4 img{
+    width: 255px;
+    height: 300px;
+    float: left;
+
+}

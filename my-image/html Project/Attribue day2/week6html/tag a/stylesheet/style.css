@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+body{
+    font-family: Khmer Os battambang;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(53, 51, 49);
+}
+.nabar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(170, 187, 181);
+    margin-bottom: 1px;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(186, 201, 196);
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(77, 83, 83);
+    transition: 0.25s ease;
+}
+ul{
+    width: 900px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+}
+ul li{
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+.text-home{
+    width: 250px;
+    height: 200px;
+    border: 5px solid yellow;
+    margin: auto;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+
+}
+.text{
+    text-align: center;
+    padding-top: 60px;
+
+}
+ul :hover{
+    color: rgb(219, 20, 20);
+    box-shadow: 0 2px 0 0 currentColor;
+}

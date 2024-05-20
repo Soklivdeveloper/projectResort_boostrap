@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../my-css/dropdownRoom.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container-fluid p-0 position-relative ">
+    <div class="background-banner">
+      <div class="box-nav ">
+        <div class="container p-0 ">
+          <div class="row">
+            <div class="col ">
+              <nav class="navbar navbar-expand-xl h-100  p-0 ">
+                <div class="container ">
+                  <a class="navbar-brand " href="#"><img data-aos="fade-down"
+                      src="../my-image/logo-resort/logo-resort.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse box-menu font-2" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto m-auto fs-6 gap-2 ">
+                      <li class="nav-item">
+                        <a class="nav-link hvr-underline-from-center   active" aria-current="page"
+                          href="../index.html">ទំព័រដើម</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          ផ្ទះលំហែរ
+                        </a>
+                        <ul class="dropdown-menu p-0 mt-4">
+                          <div class="my-drop font-3 fs-6">
+                            <li><a class="dropdown-item hvr-underline-from-center" href="room1.html">TUBE HOUSE KING
+                                VILLA</a></li>
+                            <li><a class="dropdown-item hvr-underline-from-center" href="room2.html">DELUXE TWIN
+                                VILLA</a></li>
+                            <li><a class="dropdown-item hvr-underline-from-center" href="room3.html">RIVER PAVILIONS
+                                VILLA​</a></li>
+                            <li><a class="dropdown-item hvr-underline-from-center" href="room4.html">DELUXE KING
+                                VILLA</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item hvr-underline-from-center" href="room.html">VILLAS RESORT</a>
+                            </li>
+                          </div>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link hvr-underline-from-center  " href="dining.html">ភោជនីដ្ឋាន</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link hvr-underline-from-center  " href="contact.html">ទំនាក់ទំនង</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link hvr-underline-from-center  " href="about-me.html">អំពីខ្ញុំ</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex gap-3 align-items-center font-6 shadow1" data-aos="fade-down"
+                      data-aos-easing="linear" data-aos-duration="1500" role="submite">
+                      <button class="btn btn-outline-light btn-top " type="submit">Booking Availability</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-banner">
+        <div class="my-slide position-relative d-flex justify-content-center">
+          <img class="img-fluid z-1 position-absolute object-fit-cover" src="../my-image/picture-resort/cabin-mp87O64RpGUbrOKe.avif"
+            class="d-block m-auto" alt="...">
+          <div class="title-slide z-2 position-absolute d-flex flex-column justify-content-center align-items-center ">
+            <!-- <h3 class=" text-center   position-relative display-4 animate__animated animate__backInDown">
+                  សូមស្វាគមន៍</h3>
+                <h3
+                  class=" text-center text-danger position-absolute top-0 w-100 display-4 animate__animated animate__backInDown ">
+                  សូមស្វាគមន៍</h3> -->
+            <div class="banner-logo" data-aos="zoom-in">
+              <img src="../my-image/logo-resort/logo-resort.png" alt="">
+            </div>
+            <p class="fs-1 text-center text-primary m-0 font-2" data-aos="zoom-out-right">Flower Resort Kompot Province
+            </p>
+            <p class="fw-light fs-5 text-center text-warning m-0 txt-shadow"><b>Private infinity pools and spacious
+                living</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid d-flex justify-content-center bg-check">
+    <div class="booking">
+      <div class="container">
+        <div class="row  d-flex justify-content-center gap-3">
+          <div class="col-11 col-lg-3 p-0">
+            <div class="check-room text-white font-4">
+              <label for="">Resort & room</label>
+              <select id="select" name="select" class="option-title">
+                <option value="volvo">Flower Resort Kompot Province</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-5 col-lg-2 p-0">
+            <div class="check-room text-white font-4">
+              <label for="">Check In</label>
+              <input type="date">
+            </div>
+          </div>
+          <div class="col-5 col-lg-2 p-0">
+            <div class="check-room text-white font-4">
+              <label for="">check out</label>
+              <input type="datetime-local">
+            </div>
+          </div>
+          <div class="col-5 col-lg-2">
+            <label for="" class="text-white">Adults</label>
+            <div class="check-room text-white font-4">
+              <select class="option">
+                <option value="volvo">1 Adults</option>
+                <option value="saab">2 Adults</option>
+                <option value="mercedes">3 Adults</option>
+                <option value="audi">4 Adults</option>
+                <option value="volvo">5 Adults</option>
+                <option value="saab">6 Adults</option>
+                <option value="mercedes">7 Adults</option>
+                <option value="audi">8 Adults</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-5 col-lg-2 p-0">
+            <div class="check-room text-white shadow1">
+              <label for=""></label>
+              <button type="button" class="btn check-in fw-light fs-6 font-3"><b>Booking Online</b></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5">
+    <h4 class="text-center display-6 text-shadow">Experience</h4>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="my-box mt-4">
+            <div class="box-img">
+              <img src="../my-image/activity in resort/spa.jpg" alt="">
+            </div>
+            <div class="title-img text-center">
+              <div class="circle d-flex justify-content-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-gift"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zM1 4v2h6V4zm8 0v2h6V4zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5z" />
+                </svg>
+              </div>
+              <p class="m-0 fs-5">Willness</p>
+              <p>spa</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="my-box mt-4">
+            <div class="box-img">
+              <img src="../my-image/activity in resort/room.jpg" alt="">
+            </div>
+            <div class="title-img text-center">
+              <div class="circle d-flex justify-content-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-gift"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zM1 4v2h6V4zm8 0v2h6V4zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5z" />
+                </svg>
+              </div>
+              <p class="m-0 fs-5">Stay</p>
+              <p>offer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 m-auto">
+          <div class="my-box mt-4">
+            <div class="box-img">
+              <img src="../my-image/activity in resort/food.jpg" alt="">
+            </div>
+            <div class="title-img text-center">
+              <div class="circle d-flex justify-content-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-gift"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zM1 4v2h6V4zm8 0v2h6V4zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5z" />
+                </svg>
+              </div>
+              <p class="m-0 fs-5">Day</p>
+              <p>Exsperience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 position-relative z-3">
+    <div class="row">
+      <div class="col text-center">
+        <h4 class="display-6 text-shadow">DELUXE OUTDOOR JACUZZI</h4>
+        <p class="font4">បន្ទប់មានទំហំធំទូលាយ និងធ្វើពីឈើសុទ្ធ តុបតែងដោយក្លិនក្រអូប
+          <br>បែបថៃបុរាណ។ មានទីតាំងនៅជាន់ផ្ទាល់ដី ចូលទៅអាងទឹក Jacuzzi ។ បន្ទប់ធំទូលាយ 38 ម៉ែត្រការ៉េ រួមបញ្ចូលយ៉រ។ <br>Room Size : 38 Sp.M.
+        </p>
+
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mt-5">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 " id="exampleModalLabel">Details of your stay</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="my-check m-auto ">
+                <div class="row g-3">
+                  <div class="col-sm-12 col-lg-6">
+                    <div class="check-form">
+                      <label for="">Check-in date</label><br>
+                      <input type="date">
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-6">
+                    <div class="check-form">
+                      <label for="">Check-in date</label><br>
+                      <input type="datetime-local">
+                    </div>
+                  </div>
+                  <label for="">Stay in the room ‘Flower Resort’ <br><span>Adults aged 11 years old and
+                      older</span></label>
+                  <div class="col-sm-12 col-lg-6">
+                    <div class="check-form">
+                      <select class="option">
+                        <option value="volvo">1 Adults</option>
+                        <option value="saab">2 Adults</option>
+                        <option value="mercedes">3 Adults</option>
+                        <option value="audi">4 Adults</option>
+                        <option value="volvo">5 Adults</option>
+                        <option value="saab">6 Adults</option>
+                        <option value="mercedes">7 Adults</option>
+                        <option value="audi">8 Adults</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-6">
+                    <div class="check-form">
+                      <select class="option">
+                        <option value="volvo">Add Child</option>
+                        <option value="saab">Child aged 1 years old</option>
+                        <option value="mercedes">Child aged 2 years old</option>
+                        <option value="audi">Child aged 3 years old</option>
+                        <option value="volvo">Child aged 4 years old</option>
+                        <option value="saab">Child aged 5 years old</option>
+                        <option value="mercedes">Child aged 6 years old</option>
+                        <option value="audi">Child aged 7 years old</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <label for="">Extra Room +</label>
+                    <div class="check-form d-flex justify-content-center mt-3">
+                      <button type="button" class="btn btn-primary w-lg-50 h-100 m-auto">Chcck
+                        Availability</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-slide">
+      <div class="row g-3">
+        <div class="col-12 col-lg-7 p-0">
+          <div class="my-slide">
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="house-slide">
+                    <img src="../my-image/room-review/room28.jpg" alt="">
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                  <div class="house-slide">
+                    <img src="../my-image/room-review/room29.jpg" alt="">
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                  <div class="house-slide">
+                    <img src="../my-image/room-review/room10.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 p-0 d-flex align-items-center">
+          <div class="box-feature d-flex justify-content-center flex-column">
+            <p class="text-center fs-2">FAMILY GARDEN VIEW</p>
+            <div class="box-spm d-flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707" />
+              </svg>
+              <p>55 sqm.</p>
+            </div>
+            <div class="box-spm d-flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-people"
+                viewBox="0 0 16 16">
+                <path
+                  d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+              </svg>
+              <p>max guest 2+1 ( 2 adult + 1 child )</p>
+            </div>
+            <div class="box-spm d-flex">
+              <img src="../my-image/action-service/bed.png" alt="">
+              <p>king bed only</p>
+            </div>
+            <div class="btn-detail book-btn ">
+              <!-- Button trigger modal -->
+              <button type="button"
+                class="btn btn-outline-warning d-flex align-items-center w-100 h-100 shadow2 fs-5 text-shadow justify-content-center"
+                data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                Booking
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 position-relative z-3">
+    <div class="row">
+      <div class="col text-center">
+        <h4 class="display-6 text-shadow">Junior Suite Seaview</h4>
+        <!-- <p class="font4">បន្ទប់ទាំងនេះមានពីរបន្ទប់ មួយមានគ្រែពីរ និងបន្ទប់ទឹកដាច់ដោយឡែកមួយ <br>
+          ភាគថាសរអិលបង្ហាញពីកន្លែងផ្សេងទៀត - កន្លែងរស់នៅដាច់ដោយឡែក តុបរិភោគអាហារជាមួយផ្ទះបាយតូច និងយ៉រឯកជន។
+
+        </p> -->
+
+      </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="row g-3 d-flex justify-content-center">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="box-suite">
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/wifi.png" alt="">
+            <p> Internet - Free Wi-Fi for direct bookers</p>
+          </div>
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/bathroom.png" alt="">
+            <p> Bathroom - Private bathroom</p>
+          </div>
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/safe.png" alt="">
+            <p> Practical - Phone, safe, and desk</p>
+          </div>
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/dryer.png" alt="">
+            <p> Hair Dryer</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="box-suite">
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/channels.png" alt="">
+            <p> Entertainment - Cable channels</p>
+          </div>
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/shower.png" alt="">
+            <p> rain shower with movable shower head</p>
+          </div>
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/coffee.png" alt="">
+            <p> Minibar and a day bed</p>
+          </div>
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/slipper.png" alt="">
+            <p> slippers</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="box-suite">
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/bed.png" alt="">
+            <p> Sleep - Blackout drapes/curtains</p>
+          </div>
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/bathrobes.png" alt="">
+            <p> bathrobes</p>
+          </div>
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/balcony.png" alt="">
+            <p> Private balcony</p>
+          </div>
+          <div class="suite-img">
+            <img src="../my-image/activity in resort/ari-condition.png" alt="">
+            <p> Comfort - Air conditioning</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center display-6 text-shadow">ACCOMMODATIONS</h1>
+        <p class="text-center p-4 font-1">វីឡារបស់យើងមានអាងហែលទឹកឯកជន ហើយមាននៅក្នុងការកំណត់រចនាសម្ព័ន្ធ ទំហំ និងទិដ្ឋភាពជាច្រើន។ អ្នកអាចភ្ញាក់ពីដំណេកទៅកាន់ឆ្នេរសមុទ្រដ៏ស្រស់ស្អាតនៃកោះសាមុយនៅក្នុងវីឡាអាងហែលទឹកមាត់សមុទ្ររបស់យើង ឬក្លាយជាវីឡាជាមួយនឹងធម្មជាតិនៅក្នុងវីឡាដែលស្ថិតនៅក្នុងតំបន់ត្រូពិចខៀវស្រងាត់។</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid p-0 mt-3">
+    <div class="modal fade" id="detail2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">View Detail</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="detail">
+                <div class="row">
+                  <div class="col-xl-8 col-sm-12">
+                    <div class="room">
+                      <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="pic-detail">
+                              <img class="" src="../my-image/room-review/room4.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="pic-detail">
+                              <img class="img-fluid" src="../my-image/room-review/room7.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="pic-detail">
+                              <img class="" src="../my-image/room-review/room22.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <!-- <img class="im-fluid h-100 w-100" src="my-image/room-review/room1.jpg" alt=""> -->
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-12">
+                    <div class="story font-1">
+                      <p class="fs-5">ការស្នាក់នៅរបស់អ្នករួមបញ្ចូល</p>
+                      <p>
+                        <li>អាហារពេលព្រឹកប្រចាំថ្ងៃ</li>
+                        <li> ទឹកបរិសុទ្ធ</li>
+                        <li>កាហ្វេ និងតែក្នុងបន្ទប់</li>
+                        <li>ជិះទូកតាមដងទន្លេកោងកាង</li>
+                      </p>
+
+                      <div class="btn-detail mt-4">
+                        <button type="button"
+                          class="btn btn-light d-flex align-items-center justify-content-between shadow w-100 h-100">
+                          <p class="m-0">form <br> 135$</p><span class="left"></span>
+                          <p class="m-0">Booking</p>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container text-bg-white mt-3">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-arrows-expand-vertical" viewBox="0 0 16 16">
+                      <path
+                        d="M8 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L1.707 7.5H5.5a.5.5 0 0 1 0 1H1.707l1.147 1.146a.5.5 0 0 1-.708.708zM10 8a.5.5 0 0 1 .5-.5h3.793l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L14.293 8.5H10.5A.5.5 0 0 1 10 8" />
+                    </svg>
+                    <p class="m-0">room size <br>
+                      40sqm</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-people" viewBox="0 0 16 16">
+                      <path
+                        d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                    </svg>
+                    <p class="m-0">Occupancy <br>
+                      2 Adults 1 Child</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-image" viewBox="0 0 16 16">
+                      <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                      <path
+                        d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z" />
+                    </svg>
+                    <p class="m-0">View <br>
+                      Garden/Sea View</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-houses" viewBox="0 0 16 16">
+                      <path
+                        d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207z" />
+                    </svg>
+                    <p class="m-0">Bedding <br>
+                      King bed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>យ៉រឯកជន</li>
+                      <li>ងូតទឹកផ្កាឈូក</li>
+                      <li>វ៉ាយហ្វាយល្បឿនលឿន</li>
+                      <li>ទូរទស្សន៍​អេក្រង់​សំប៉ែត</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>ប្រអប់ដាក់ប្រាក់សុវត្ថិភាព</li>
+                      <li>មីនីបារ</li>
+                      <li>កន្លែងឆុងកាហ្វេ/តែ</li>
+                      <li>កំសៀវអគ្គិសនី</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>ម៉ាស៊ីន​ផ្លុំ​សក់</li>
+                      <li>តុអង្គុយលេង</li>
+                      <li>ទូខោអាវ</li>
+                      <li>គ្រែបន្ថែម (តាមការស្នើសុំ)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>គ្រែទារក (តាមការស្នើសុំ)</li>
+                      <li>ឆ្នាំងអ៊ុតអគ្គិសនី (តាមការស្នើសុំ)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="detail3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">View Detail</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="detail">
+                <div class="row">
+                  <div class="col-xl-8 col-sm-12">
+                    <div class="room">
+                      <div id="carouselExampleIndicators11" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="pic-detail">
+                              <img class="" src="../my-image/room-review/room27.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="pic-detail">
+                              <img class="img-fluid" src="../my-image/room-review/room28.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="pic-detail">
+                              <img class="" src="../my-image/room-review/room29.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <!-- <img class="im-fluid h-100 w-100" src="my-image/room-review/room1.jpg" alt=""> -->
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-12">
+                    <div class="story font-1">
+                      <p class="fs-5">ការស្នាក់នៅរបស់អ្នករួមបញ្ចូល</p>
+                      <p>
+                        <li>អាហារពេលព្រឹកប្រចាំថ្ងៃ</li>
+                        <li> ទឹកបរិសុទ្ធ</li>
+                        <li>កាហ្វេ និងតែក្នុងបន្ទប់</li>
+                        <li>ជិះទូកតាមដងទន្លេកោងកាង</li>
+                      </p>
+
+                      <div class="btn-detail mt-4">
+                        <button type="button"
+                          class="btn btn-light d-flex align-items-center justify-content-between shadow w-100 h-100">
+                          <p class="m-0">form <br> 135$</p><span class="left"></span>
+                          <p class="m-0">Booking</p>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container text-bg-white mt-3">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-arrows-expand-vertical" viewBox="0 0 16 16">
+                      <path
+                        d="M8 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L1.707 7.5H5.5a.5.5 0 0 1 0 1H1.707l1.147 1.146a.5.5 0 0 1-.708.708zM10 8a.5.5 0 0 1 .5-.5h3.793l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L14.293 8.5H10.5A.5.5 0 0 1 10 8" />
+                    </svg>
+                    <p class="m-0">room size <br>
+                      40sqm</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-people" viewBox="0 0 16 16">
+                      <path
+                        d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                    </svg>
+                    <p class="m-0">Occupancy <br>
+                      2 Adults 1 Child</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-image" viewBox="0 0 16 16">
+                      <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                      <path
+                        d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z" />
+                    </svg>
+                    <p class="m-0">View <br>
+                      Garden/Sea View</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-houses" viewBox="0 0 16 16">
+                      <path
+                        d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207z" />
+                    </svg>
+                    <p class="m-0">Bedding <br>
+                      King bed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>យ៉រឯកជន</li>
+                      <li>ងូតទឹកផ្កាឈូក</li>
+                      <li>វ៉ាយហ្វាយល្បឿនលឿន</li>
+                      <li>ទូរទស្សន៍​អេក្រង់​សំប៉ែត</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>ប្រអប់ដាក់ប្រាក់សុវត្ថិភាព</li>
+                      <li>មីនីបារ</li>
+                      <li>កន្លែងឆុងកាហ្វេ/តែ</li>
+                      <li>កំសៀវអគ្គិសនី</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>ម៉ាស៊ីន​ផ្លុំ​សក់</li>
+                      <li>តុអង្គុយលេង</li>
+                      <li>ទូខោអាវ</li>
+                      <li>គ្រែបន្ថែម (តាមការស្នើសុំ)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>គ្រែទារក (តាមការស្នើសុំ)</li>
+                      <li>ឆ្នាំងអ៊ុតអគ្គិសនី (តាមការស្នើសុំ)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="detail2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">View Detail</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="detail">
+                <div class="row">
+                  <div class="col-xl-8 col-sm-12">
+                    <div class="room">
+                      <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="pic-detail">
+                              <img class="" src="../my-image/room-review/room4.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="pic-detail">
+                              <img class="img-fluid" src="../my-image/room-review/room7.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="pic-detail">
+                              <img class="" src="../my-image/room-review/room22.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <!-- <img class="im-fluid h-100 w-100" src="my-image/room-review/room1.jpg" alt=""> -->
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-12">
+                    <div class="story font-1">
+                      <p class="fs-5">ការស្នាក់នៅរបស់អ្នករួមបញ្ចូល</p>
+                      <p>
+                        <li>អាហារពេលព្រឹកប្រចាំថ្ងៃ</li>
+                        <li> ទឹកបរិសុទ្ធ</li>
+                        <li>កាហ្វេ និងតែក្នុងបន្ទប់</li>
+                        <li>ជិះទូកតាមដងទន្លេកោងកាង</li>
+                      </p>
+
+                      <div class="btn-detail mt-4">
+                        <button type="button"
+                          class="btn btn-light d-flex align-items-center justify-content-between shadow w-100 h-100">
+                          <p class="m-0">form <br> 135$</p><span class="left"></span>
+                          <p class="m-0">Booking</p>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container text-bg-white mt-3">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-arrows-expand-vertical" viewBox="0 0 16 16">
+                      <path
+                        d="M8 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L1.707 7.5H5.5a.5.5 0 0 1 0 1H1.707l1.147 1.146a.5.5 0 0 1-.708.708zM10 8a.5.5 0 0 1 .5-.5h3.793l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L14.293 8.5H10.5A.5.5 0 0 1 10 8" />
+                    </svg>
+                    <p class="m-0">room size <br>
+                      40sqm</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-people" viewBox="0 0 16 16">
+                      <path
+                        d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                    </svg>
+                    <p class="m-0">Occupancy <br>
+                      2 Adults 1 Child</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-image" viewBox="0 0 16 16">
+                      <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                      <path
+                        d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z" />
+                    </svg>
+                    <p class="m-0">View <br>
+                      Garden/Sea View</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-houses" viewBox="0 0 16 16">
+                      <path
+                        d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207z" />
+                    </svg>
+                    <p class="m-0">Bedding <br>
+                      King bed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>យ៉រឯកជន</li>
+                      <li>ងូតទឹកផ្កាឈូក</li>
+                      <li>វ៉ាយហ្វាយល្បឿនលឿន</li>
+                      <li>ទូរទស្សន៍​អេក្រង់​សំប៉ែត</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>ប្រអប់ដាក់ប្រាក់សុវត្ថិភាព</li>
+                      <li>មីនីបារ</li>
+                      <li>កន្លែងឆុងកាហ្វេ/តែ</li>
+                      <li>កំសៀវអគ្គិសនី</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>ម៉ាស៊ីន​ផ្លុំ​សក់</li>
+                      <li>តុអង្គុយលេង</li>
+                      <li>ទូខោអាវ</li>
+                      <li>គ្រែបន្ថែម (តាមការស្នើសុំ)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>គ្រែទារក (តាមការស្នើសុំ)</li>
+                      <li>ឆ្នាំងអ៊ុតអគ្គិសនី (តាមការស្នើសុំ)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="detail2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">View Detail</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="detail">
+                <div class="row">
+                  <div class="col-xl-8 col-sm-12">
+                    <div class="room">
+                      <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="pic-detail">
+                              <img class="" src="../my-image/room-review/room4.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="pic-detail">
+                              <img class="img-fluid" src="../my-image/room-review/room7.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="pic-detail">
+                              <img class="" src="../my-image/room-review/room22.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <!-- <img class="im-fluid h-100 w-100" src="my-image/room-review/room1.jpg" alt=""> -->
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-sm-12">
+                    <div class="story font-1">
+                      <p class="fs-5">ការស្នាក់នៅរបស់អ្នករួមបញ្ចូល</p>
+                      <p>
+                        <li>អាហារពេលព្រឹកប្រចាំថ្ងៃ</li>
+                        <li> ទឹកបរិសុទ្ធ</li>
+                        <li>កាហ្វេ និងតែក្នុងបន្ទប់</li>
+                        <li>ជិះទូកតាមដងទន្លេកោងកាង</li>
+                      </p>
+
+                      <div class="btn-detail mt-4">
+                        <button type="button"
+                          class="btn btn-light d-flex align-items-center justify-content-between shadow w-100 h-100">
+                          <p class="m-0">form <br> 135$</p><span class="left"></span>
+                          <p class="m-0">Booking</p>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container text-bg-white mt-3">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-arrows-expand-vertical" viewBox="0 0 16 16">
+                      <path
+                        d="M8 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L1.707 7.5H5.5a.5.5 0 0 1 0 1H1.707l1.147 1.146a.5.5 0 0 1-.708.708zM10 8a.5.5 0 0 1 .5-.5h3.793l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L14.293 8.5H10.5A.5.5 0 0 1 10 8" />
+                    </svg>
+                    <p class="m-0">room size <br>
+                      40sqm</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-people" viewBox="0 0 16 16">
+                      <path
+                        d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                    </svg>
+                    <p class="m-0">Occupancy <br>
+                      2 Adults 1 Child</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-image" viewBox="0 0 16 16">
+                      <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                      <path
+                        d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z" />
+                    </svg>
+                    <p class="m-0">View <br>
+                      Garden/Sea View</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="action-detail d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                      class="bi bi-houses" viewBox="0 0 16 16">
+                      <path
+                        d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207z" />
+                    </svg>
+                    <p class="m-0">Bedding <br>
+                      King bed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>យ៉រឯកជន</li>
+                      <li>ងូតទឹកផ្កាឈូក</li>
+                      <li>វ៉ាយហ្វាយល្បឿនលឿន</li>
+                      <li>ទូរទស្សន៍​អេក្រង់​សំប៉ែត</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>ប្រអប់ដាក់ប្រាក់សុវត្ថិភាព</li>
+                      <li>មីនីបារ</li>
+                      <li>កន្លែងឆុងកាហ្វេ/តែ</li>
+                      <li>កំសៀវអគ្គិសនី</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>ម៉ាស៊ីន​ផ្លុំ​សក់</li>
+                      <li>តុអង្គុយលេង</li>
+                      <li>ទូខោអាវ</li>
+                      <li>គ្រែបន្ថែម (តាមការស្នើសុំ)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                  <div class="room-feature font-1">
+                    <ul>
+                      <li>គ្រែទារក (តាមការស្នើសុំ)</li>
+                      <li>ឆ្នាំងអ៊ុតអគ្គិសនី (តាមការស្នើសុំ)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="banner-slide">
+      <div class="row">
+        <div class="col">
+          <div id="slide">
+            <div class="item" style="background-image: url(../my-image/picture-resort/Eagle-Nest-5-768x480.jpg);">
+              <div class="content">
+                <div class="name text-white fs-3">TUBE HOUSE KING VILLA</div>
+                <div class="des text-white fs-4">Terrific sights & sounds from beachfront</div>
+                <div class="btn-detail">
+                  <button type="button" class="btn w-100 h-100 text-info shadow3 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#detail2">
+                    Details Villas <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                        fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                      </svg></span>
+                  </button>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="item" style="background-image: url(../my-image/picture-resort/cabin-mp87O64RpGUbrOKe.avif);">
+              <div class="content">
+                <div class="name text-white fs-3">DELUXE TWIN VILLA</div>
+                <div class="des text-white fs-4">Experience the power of ocean beachfront</div>
+                <div class="btn-detail">
+                  <button type="button" class="btn w-100 h-100 text-info shadow3 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#detail3">
+                    Details Villas <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                        fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                      </svg></span>
+                  </button>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="item" style="background-image: url(../my-image/picture-resort/home-m2WrylqZe0uqjjP2.avif);">
+              <div class="content">
+                <div class="name text-white fs-3">RIVER PAVILIONS VILLA​</div>
+                <div class="des text-white fs-4">Enjoy nature from Garden</div>
+                <div class="btn-detail">
+                  <button type="button" class="btn w-100 h-100 text-info shadow3 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#detail2">
+                    Details Villas <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                        fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                      </svg></span>
+                  </button>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="item" style="background-image: url(../my-image/picture-resort/Pavalion-River-4-768x480.jpg);">
+              <div class="content">
+                <div class="name text-white fs-3">DELUXE KING VILLA
+                </div>
+                <div class="des text-white fs-4">Peaceful river awaits you</div>
+                <div class="btn-detail shadow3">
+                  <button type="button" class="btn w-100 h-100 text-info shadow3 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#detail2">
+                    Details Villas <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                        fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                      </svg></span>
+                  </button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="btn-slide">
+            <button id="prev"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+              </svg></i></button>
+            <button id="next"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+              </svg></i></button>
+          </div>
+          <!-- </div> -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-5 order-lg-1 p-0">
+          <div class="content-faclity text-center">
+            <h1 class="display-6">Resort FACILITIES</h1>
+            <p class="fs-5">Flower Resort</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-7 p-0 order-lg-0">
+
+          <div class="room-faclity ">
+            <div class="box-faclity">
+              <img class="img-fluid" src="../my-image/action-service/dining.png" alt="">
+              <p>eating</p>
+            </div>
+            <div class="box-faclity">
+              <img class="img-fluid" src="../my-image/action-service/meetingg.png" alt="">
+              <p>meeting</p>
+            </div>
+            <div class="box-faclity">
+              <img class="img-fluid" src="../my-image/action-service/weding.png" alt="">
+              <p>wedding</p>
+            </div>
+            <div class="box-faclity">
+              <img class="img-fluid" src="../my-image/action-service/spa.png" alt="">
+              <p>spa</p>
+            </div>
+            <div class="box-faclity">
+              <img class="img-fluid" src="../my-image/action-service/swimmingg.png" alt="">
+              <p>swimming</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-color mt-5">
+    <div class="container">
+      <div class="my-footer">
+        <div class="row d-flex">
+          <div class="col-lg-2 p-0">
+            <div class="sub-footer d-flex justify-content-start align-items-start">
+              <img class="img-fluid" src="../my-image/logo-resort/logo-resort.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="sub-footer information">
+              <p class="fs-4">Information</p>
+              <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path
+                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg> Prek Svay Village, Heaven Beach, Koh Rong, Sihanoukville, Cambodia. <br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-telephone-outbound" viewBox="0 0 16 16">
+                  <path
+                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5" />
+                </svg> +855 (0) 10 271 774, +855 (0) 76 099 1234, <br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-envelope-at" viewBox="0 0 16 16">
+                  <path
+                    d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z" />
+                  <path
+                    d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
+                </svg> LangSokliv28@gmail.com <br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-calendar2-check" viewBox="0 0 16 16">
+                  <path
+                    d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z" />
+                  <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5z" />
+                </svg> Check-In: 14:00 | Check-Out: 12:00 <br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-credit-card-2-back" viewBox="0 0 16 16">
+                  <path d="M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z" />
+                  <path
+                    d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1m-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1" />
+                </svg> Credit cards accepted
+              </p>
+
+            </div>
+          </div>
+          <div class="col-lg-5 p-0">
+            <div class="sub-footer information d-flex flex-column">
+              <label for="">Your question</label>
+              <div class="box-email d-flex">
+                <input type="text" class="form-control" placeholder="Your Question" aria-label="Recipient's username"
+                  aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">submit</button>
+              </div>
+
+              <p class="fs-4">Contact Us</p>
+              <div class="box-media">
+                <a href="https://web.facebook.com/profile.php?id=100073317699519"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                    class="bi bi-facebook icon" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                  </svg></a>
+                <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                    class="bi bi-telegram icon" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
+                  </svg></a>
+                <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                    class="bi bi-twitter-x icon" viewBox="0 0 16 16">
+                    <path
+                      d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                  </svg></a>
+                <a href="https://www.tiktok.com/@userk8sdfa9t87?_t=8iAe2n3qqHa&_r=1"> <svg
+                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                    class="bi bi-tiktok icon" viewBox="0 0 16 16">
+                    <path
+                      d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>

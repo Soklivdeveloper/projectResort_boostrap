@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nabar-text{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(53, 138, 134);
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+.container-pic img{
+    width: 100%;
+    height: 350px;
+    background-color: antiquewhite;
+    object-fit: cover;
+}
+.box-text{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(56, 92, 94);
+}
+.lorem{
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 1200px;
+    height: 700px;
+    background-color: white;
+    margin-top: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.box1{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(161, 62, 161);
+    float: left;
+}
+.container-box{
+    width: 830px;
+    height: 400px;
+    background-color: white;
+    float: right;
+}
+.box2{
+    width: 263.33px;
+    height: 190px;
+    background-color: rgb(150, 124, 124);
+    float: left;
+}
+.box3{
+    width: 263.33px;
+    height: 190px;
+    background-color: rgb(143, 116, 116);
+    float: left;
+    margin-left: 20px;
+}
+.box4{
+    width: 263.33px;
+    height: 190px;
+    background-color: rgb(145, 117, 117);
+    float: right;
+}
+.box5{
+    width: 263.33px;
+    height: 190px;
+    background-color: rgb(138, 111, 111);
+    float: left;
+}
+.box6{
+    width: 263.33px;
+    height: 190px;
+    background-color: rgb(153, 127, 127);
+    float: left;
+    margin-left: 20px;
+}
+.box7{
+    width: 263.33px;
+    height: 190px;
+    background-color: rgb(148, 114, 114);
+    float: right;
+}
+.box5,.box6, .box7{
+    margin-top: 20px;
+}
+.container-box2{
+    width: 1200px;
+    height: 290px;
+    background-color: white;
+    margin-top: 10px;
+    float: left;
+}
+.box8{
+    width: 232px;
+    height: 290px;
+    background-color: rgb(78, 76, 73);
+    float: left;
+}
+.box9, .box10,.box11{
+    width: 232px;
+    height: 290px;
+    background-color: rgb(68, 66, 63);
+    float: left;
+    margin-left: 10px;
+}
+.box12{
+    width: 232px;
+    height: 290px;
+    background-color: rgb(61, 60, 58);
+    float: right;
+}
+.text{
+    width: 1200px;
+    height: 30px;
+    background-color: rgb(81, 110, 42);
+    float: left;
+    margin-top: 20px;
+}
+.text-p{
+    text-align: center;
+    padding: 5px;
+}
+.bigbox{
+    text-align: center;
+    padding-top: 30%;
+}
+p{
+    text-align: center;
+    padding-top: 90px;
+}

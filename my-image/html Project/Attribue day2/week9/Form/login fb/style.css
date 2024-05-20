@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.box-tittle{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.tittle-fb{
+    width: 400px;
+    height: 80px;
+    margin: auto;
+}
+.tittle-fb > h1{
+    color: blue;
+    font-size: 50px;
+}
+.tittle-fb > p{
+    font-size: 20px;
+}
+.container-form{
+    width: 400px;
+    height: 400px;
+}
+.box-form{
+    width: 400px;
+    height: 350px;
+    background-color:azure;
+    padding-top: 10px;
+}
+.username{
+    width: 370px;
+    height: 40px;
+    background-color: antiquewhite;
+    margin: auto;
+}
+.password{
+    width: 370px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+}
+input{
+    width: 370px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.btn{
+    width: 370px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+}
+button{
+    width: 370px;
+    height: 40px;
+    background-color: rgb(43, 110, 235);
+    border-radius: 5px;
+
+}
+.tittle-forget{
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.rule{
+    width: 200px;
+    border: 2px dotted rgb(70, 67, 67);
+    margin: auto;
+    margin-top: 10px;
+}
+.btn-create{
+    width: 250px;
+    height: 45px;
+    background-color: rgb(12, 228, 12);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.create-newpage{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

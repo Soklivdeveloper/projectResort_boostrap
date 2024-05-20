@@ -1,0 +1,22 @@
+
+@font-face{
+    font-family: ABC;
+    src: url(../font/Roboto-LightItalic.ttf);
+}
+.box{
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    border-top: 5px solid black;
+    border-left: 5px double blue;
+    border-right: 5px dashed green;
+    border-bottom: 5px dotted yellow;
+
+}
+.fa-solid{
+    color: black;
+    font-size: 20px;
+    padding: 30%;
+    text-align: center;
+}
+

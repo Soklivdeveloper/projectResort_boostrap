@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+
+}
+.blur-bg{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background-color: black;
+    z-index: 2;
+    opacity: 0%;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(https://lashworldtour.com/wp-content/uploads/2013/10/Pashupatinath-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tittle{
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+    position: absolute;
+    /* top: 315px; */
+    z-index: 3;
+    transition: 1s;
+    margin-top: 315px;
+    padding: 10px 15px;
+}
+h1, p{
+    color: white;
+}
+
+.main:hover .blur-bg{
+    opacity: 40%;
+}
+
+.main:hover .tittle{
+    margin-top: 220px;
+}
